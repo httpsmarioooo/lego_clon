@@ -1,0 +1,19 @@
+@font-face {
+    font-family:"Cera Pro Black";
+    src: url(./assets/fonts/fonts/Cera\ Pro\ Black.otf);
+}
+
+@font-face {
+    font-family:"Cera Pro Bold";
+    src: url(./assets/fonts/fonts/Cera\ Pro\ Bold.otf);
+}
+
+@font-face {
+    font-family:"Cera Pro Light";
+    src: url(./assets/fonts/fonts/Cera\ Pro\ Light.otf);
+}
+
+@font-face {
+    font-family:"Cera Pro Medium";
+    src: url(./assets/fonts/fonts/Cera\ Pro\ Medium.otf);
+}
