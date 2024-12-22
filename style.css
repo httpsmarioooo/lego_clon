@@ -17,3 +17,43 @@
     font-family:"Cera Pro Medium";
     src: url(./assets/fonts/fonts/Cera\ Pro\ Medium.otf);
 }
+
+*
+{
+    font-family: Cera Pro Medium;
+}
+
+.bar-playzone{
+    background-color: #f8f8f8;
+}
+
+.buttom-playzone{
+    background-color: rgb(171, 217, 255) ;
+    border: none;
+    font-size: .8rem;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgb(48, 85, 181, 0.44) .0px 1px 4px 0px;
+}
+
+.buttom-playzone:hover{
+    background-color: #ffffff;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 25px !important;
+    color: black;
+}
+.fs-slider{
+    font-size: 0.8rem;
+}
