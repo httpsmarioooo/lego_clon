@@ -23,6 +23,7 @@
     font-family: Cera Pro Medium;
 }
 
+
 .bar-playzone{
     background-color: #f8f8f8;
 }
@@ -57,3 +58,8 @@
 .fs-slider{
     font-size: 0.8rem;
 }
+
+.fs-topbar{
+    font-size: 0.8 rem;
+}
+
