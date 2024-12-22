@@ -59,7 +59,7 @@
     </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg bg-navbar";>
+    <nav class="navbar navbar-expand-lg bg-navbar" ;>
         <div class="container">
             <img class="me-3" src="./assets/brand-lego.svg" style="width: 50px;">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -69,7 +69,7 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item ms-4">
-                        <a class="nav-link active" aria-current="page" href="#">SHOP</a>
+                        <a class="nav-link active" href="#">SHOP</a>
                     </li>
                     <li class="nav-item ms-4">
                         <a class="nav-link" href="#">DISCOVER</a>
@@ -81,19 +81,42 @@
                         GIFT CARDS
                     </button>
                 </ul>
-                <button class="btn-serch me-3">
-                    <img src="./assets/icons/icon-3.svg">
-                </button>
-                <button class="btn-heart me-1">
-                    <img src="./assets/icons/icon-4.svg">
-                </button>
-                <button class="btn-store">
-                    <img src="./assets/icons/icon-5.svg"> 
-                    <span class="store ms-2">(0)</span>
-                </button>
+
+                <!---->
+                <div class="d-flex">
+                    <a class="btn-serch me-3" id="btnSearch" onclick="openSearch()">
+                        <img src="./assets/icons/icon-3.svg">
+                    </a>
+
+                    <div class="input-group d-none" id="inputSearch">
+                        <input style="z-index: 1;"  type="text" id="inSearch" class="form-control position-relative" aria-label="Amount (to the nearest dollar)">
+                        <div style="z-index: 1;" class="position-absolute btn-search h-100 d-flex align-items-center ">
+                            <box-icon name='search' size='sm'></box-icon>
+                        </div>
+
+                        <div style="z-index: 1;" class="position-absolute btn-x h-100 d-flex align-items-center" onclick="openSearch()">
+                            <box-icon name='x' size='sm'></box-icon>
+                        </div>
+                    </div>
+
+
+                    <!---->
+                    <a class="btn-heart ms-1 me-2">
+                        <img src="./assets/icons/icon-4.svg" alt="">
+                    </a>
+                    <a class="btn-store">
+                        <img src="./assets/icons/icon-5.svg" alt="">
+                        <span class="store ms-2">(0)</span>
+                    </a>
+                </div>
             </div>
         </div>
     </nav>
+
+
+    <div id="box-shadow">
+    </div>
+
 
 
 

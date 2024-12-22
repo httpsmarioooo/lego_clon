@@ -103,7 +103,6 @@
     background: rgb(255, 255, 255);
     align-items: center;
     justify-content: center;
-    color: rgb(0, 0, 0);
 }
 
 .btn-heart{
@@ -116,7 +115,6 @@
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    color: rgb(0, 0, 0);
 }
 
 .btn-store{
@@ -134,4 +132,18 @@
 
 .store{
     font-size: 0.7rem;
+}
+
+
+.btn-search{
+padding-left: 0.6rem;
+}
+
+.btn-x{
+    right: 0px;
+    padding-right: 0.6rem;
+}
+
+#inSearch{
+    border-radius: 50px;
 }
