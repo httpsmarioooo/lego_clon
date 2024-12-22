@@ -63,3 +63,75 @@
     font-size: 0.8 rem;
 }
 
+.fs-topbar2{
+    font-size: 0.8rem;
+}
+
+.bg-navbar{
+    background-color:#ffd502;
+}
+
+.btton-gift{
+    background-color: rgb(255, 255, 255) ;
+    border: none;
+    color: red;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgb(48, 85, 181, 0.44) .0px 1px 4px 0px;
+}
+
+.btton-gift:hover{
+    color: #f8f8f8;
+    background-color: #000000;
+}
+
+.nav-item:hover{
+    text-decoration: underline 3px;
+    text-underline-offset: 5px;
+}
+
+
+.btn-serch{
+    border: none;
+    cursor: pointer;
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+.btn-heart{
+    border: none;
+    cursor: pointer;
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: none;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+.btn-store{
+    border: none;
+    cursor: pointer;
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: none;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+.store{
+    font-size: 0.7rem;
+}
