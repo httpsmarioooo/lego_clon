@@ -1,26 +1,26 @@
 @font-face {
-    font-family:"Cera Pro Black";
+    font-family:"Cera-Pro-Black";
     src: url(./assets/fonts/fonts/Cera\ Pro\ Black.otf);
 }
 
 @font-face {
-    font-family:"Cera Pro Bold";
+    font-family:"Cera-Pro-Bold";
     src: url(./assets/fonts/fonts/Cera\ Pro\ Bold.otf);
 }
 
 @font-face {
-    font-family:"Cera Pro Light";
+    font-family:"Cera-Pro-Light";
     src: url(./assets/fonts/fonts/Cera\ Pro\ Light.otf);
 }
 
 @font-face {
-    font-family:"Cera Pro Medium";
+    font-family:"Cera-Pro-Medium";
     src: url(./assets/fonts/fonts/Cera\ Pro\ Medium.otf);
 }
 
 *
 {
-    font-family: Cera Pro Medium;
+    font-family: Cera-Pro-Medium;
 }
 
 @media (max-width: 990px) and (max-height: 900px) {
@@ -32,6 +32,12 @@
 @media (max-width: 1198px) and (max-height: 900px) {
     .sign-in{
         display: none !important;
+    }
+}
+
+@media (max-width: 990px) {
+    .bg-navbar {
+        background-color: rgb(255, 255, 255) !important; /* Azul */
     }
 }
 
@@ -191,3 +197,23 @@ padding-left: 0.6rem;
     width: 100%;
 }
 
+.btn-shop{
+    display: flex;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 150px;
+}
+
+.btn-shop:hover{
+    border: none;
+    background-color: #eb4534
+    ;
+}
+
+.w-mx-150px{
+    max-width: 150px;
+}
