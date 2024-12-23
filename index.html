@@ -63,8 +63,9 @@
     <nav class="navbar navbar-expand-lg bg-navbar" ;>
         <div class="container">
             <div>
-                <button class="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
-                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#staticBackdrop" aria-controls="navbarText" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <img class="me-3" src="./assets/brand-lego.svg" style="width: 50px;">
@@ -84,7 +85,7 @@
                         GIFT CARDS
                     </button>
                 </ul>
-                <div class="d-flex">
+                <div class="d-flex justify-content-center align-items-center">
                     <a class="btn-serch me-3" id="btnSearch" onclick="openSearch()">
                         <img src="./assets/icons/icon-3.svg">
                     </a>
@@ -99,13 +100,13 @@
                             <box-icon name='x' size='sm'></box-icon>
                         </div>
                     </div>
-                    <a class="btn-heart ms-1 me-2">
-                        <img src="./assets/icons/icon-4.svg" alt="">
+                    <a href="" class="ms-1 me-2 d-flex align-items-center">
+                        <img src="assets/icons/icon-4.svg" alt="" style="width: 18px;height: 18px;">
                     </a>
-                    <a class="btn-store">
-                        <img src="./assets/icons/icon-5.svg" alt="">
-                        <span class="store ms-2">(0)</span>
+                    <a href="" class="d-flex ms-1 align-items-center">
+                        <img src="assets/icons/icon-5.svg" alt="" style="width: 18px;height: 18px;">
                     </a>
+                    <a href="" class="store ms-2">(0)</a>
                 </div>
             </div>
         </div>
@@ -134,7 +135,6 @@
     </div>
     <!--OFFCANVAS-->
     <!--NAVBAR-->
-    <div id="box-shadow"></div>
     <!--HEADER-->
 
     <!--MAIN-->
@@ -149,7 +149,7 @@
                     </div>
                     <div class="col-lg-3 d-flex justify-content-center align-items-center flex-column position-absolute"
                         style="left: 50%;top: 50%; transform: translate(-50%,-50%);">
-                        <h1 class="text-center">Last-minute shopping?</h1>
+                        <h1 class="text-center"><strong>Lasti Minute shopping?</strong></h1>
                         <span class="text-center mt-3" style="font-family: Cera-Pro-Light;">Make the moment merry with a
                             LEGO® Gift Card</span>
                         <div class="pt-1">
@@ -198,9 +198,9 @@
                 </div>
             </div>
         </section>
-
         <!--FIRST SECTION-->
     </main>
+    <div id="boxx-shadow"></div>
 
 
 
@@ -214,5 +214,4 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./app.js"></script>
 </body>
-
 </html>

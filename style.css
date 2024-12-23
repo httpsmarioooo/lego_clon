@@ -148,7 +148,13 @@
 }
 
 .store{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
     font-size: 0.7rem;
+}
+
+.store:hover{
+    text-decoration: underline;
 }
 
 
