@@ -23,6 +23,17 @@
     font-family: Cera Pro Medium;
 }
 
+@media (max-width: 990px) and (max-height: 900px) {
+    .bar-playzone{
+        display: none !important;
+    }
+}
+
+@media (max-width: 1198px) and (max-height: 900px) {
+    .sign-in{
+        display: none !important;
+    }
+}
 
 .bar-playzone{
     background-color: #f8f8f8;
@@ -49,7 +60,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
 .swiper-button-next:after, .swiper-button-prev:after{
     font-size: 25px !important;
@@ -147,3 +158,36 @@ padding-left: 0.6rem;
 #inSearch{
     border-radius: 50px;
 }
+
+
+.img-oneHome{
+    max-width: 1700px !important;
+}
+
+.rectangulo{
+    width: 100%;  /* Ancho del rectángulo */
+    height: 3px; /* Altura del rectángulo */
+    background-color: #ffd502; /* Color de fondo amarillo */
+
+}
+
+.gift-off{
+    padding: 15px 20px 15px 20px;
+}
+.home-off{
+    padding: 15px 20px 15px 20px;
+}
+
+.buttom-playzoneOff{
+    background-color: rgb(171, 217, 255) ;
+    border: none;
+    font-size: .8rem;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(48, 85, 181, 0.44) .0px 1px 4px 0px;
+    width: 100%;
+}
+
