@@ -23,11 +23,7 @@
     font-family: Cera-Pro-Medium;
 }
 
-@media (max-width: 990px) and (max-height: 900px) {
-    .bar-playzone{
-        display: none !important;
-    }
-}
+
 
 
 
@@ -81,6 +77,11 @@
 }
 
 .bg-navbar{
+    background-color:#ffd502;
+}
+
+
+.bg-navbarY{
     background-color:#ffd502;
 }
 
