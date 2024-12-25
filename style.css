@@ -92,6 +92,47 @@
   background-color: #ffd502;
 }
 
+#menuHamburger span {
+  width: 100%;
+  height: 2px;
+  display: block;
+  margin-top: 4px;
+  background-color: #000000;
+  transition: all 300ms ease-in-out;
+  transform-origin: center;
+}
+
+button#menuHamburger {
+  width: 30px;
+  height: auto;
+  padding: 0;
+  border: none;
+  background: none; /* Asegúrate de que no tenga fondo */
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button#menuHamburger:hover .icon-bar-1 {
+  transform: rotate(45deg) translate(2px, 2px);
+}
+
+button#menuHamburger:hover .icon-bar-2 {
+  transform: rotate(-45deg) translate(2px, -2px);
+}
+
+/* Espaciado inicial entre barras */
+#menuHamburger span:not(:first-child) {
+  margin-top: 2px;
+}
+
+
+.font-menu{
+  font-size: 0.7rem;
+}
 .btton-gift {
   background-color: rgb(255, 255, 255);
   border: none;

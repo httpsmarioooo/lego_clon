@@ -69,11 +69,13 @@
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg bg-navbar" ;>
         <div class="container">
-            <div>
-                <button class="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#staticBackdrop" aria-controls="navbarText" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+            <div class="d-flex align-items-center">
+                <button class="navbar-toggler me-3 d-lg-none" id="menuHamburger" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="navbarText"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar-1"></span>
+                    <span class="icon-bar-2"></span>
+                    <small class="font-menu mt-2"><strong>MENU</strong></small>
                 </button>
                 <img class="me-3" src="./assets/brand-lego.svg" style="width: 50px;">
             </div>
@@ -127,18 +129,41 @@
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="rectangulo"></div>
-        <div class="offcanvas-body">
-            <div class="d-flex justify-content-center">
-                <button class="buttom-playzoneOff" style="width: 100%;">
-                    <box-icon class="me-2" name='left-arrow-alt' size='sm' flip='horizontal'></box-icon>
-                    PLAY ZONE
-                </button>
-            </div>
-
-            <div>
-
-            </div>
+        <div class="offcanvas-body" style="flex-grow: inherit;">
+            <button class="buttom-playzoneOff" style="width: 100%;">
+                <box-icon class="me-2" name='left-arrow-alt' size='sm' flip='horizontal'></box-icon>
+                PLAY ZONE
+            </button>
         </div>
+        <ul class="list-group" style="border-radius: 0px;">
+            <li class="list-group-item pb-3" style="border-top: 0px;color: #bc0e0e;">
+                SALE
+            </li>
+            <li class="list-group-item pb-3">HOME</li>
+            <li class="list-group-item d-flex justify-content-between pb-3">SHOP
+                <box-icon name='chevron-right' ></box-icon>
+            </li>
+            <li class="list-group-item d-flex justify-content-between pb-3">DISCOVER
+                <box-icon name='chevron-right' ></box-icon>
+            </li>
+            <li class="list-group-item d-flex justify-content-between pb-3">HELP
+                <box-icon name='chevron-right' ></box-icon>
+            </li>
+            <li class="list-group-item">
+                <img src="assets/icons/icon-1.svg" style="width: 20px;" class="me-3">
+                Sign In
+            </li>
+            <li class="list-group-item">
+                <img src="assets/icons/icon-2.svg" style="width: 20px;" class="me-3">
+                Join LEGO® Insiders
+            </li>
+            <li class="list-group-item">My Wishlist</li>
+            <li class="list-group-item">My Bag</li>
+            <li class="list-group-item d-flex align-items-center">
+                <box-icon name='map' ></box-icon>
+                <span class="ms-2">United States</span> 
+            </li>
+        </ul>
     </div>
     <!--OFFCANVAS-->
     <!--NAVBAR-->
@@ -208,8 +233,6 @@
         <!--FIRST SECTION-->
     </main>
     <div id="boxx-shadow"></div>
-
-
 
 
 
