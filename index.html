@@ -80,23 +80,6 @@
                 <img class="me-3" src="./assets/brand-lego.svg" style="width: 50px;">
             </div>
 
-            <div class="d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
-                <div class="d-flex">
-                  <a class="btn-search me-3" id="btnSearchRS" onclick="openSearchRS()">
-                    <img src="assets/icons/icon-3.svg" alt="" style="width: 18px;height: 18px;">
-                  </a>
-                  <a href="" class="me-3 d-flex align-items-center">
-                    <img src="assets/icons/icon-1.svg" alt="" style="width: 22px;height: 22px;">
-                  </a>
-                  <a href="" class="me-3 d-flex align-items-center">
-                    <img src="assets/icons/icon-4.svg" alt="" style="width: 18px;height: 18px;">
-                  </a>
-                  <a href="" class="d-flex align-items-center">
-                    <img src="assets/icons/icon-5.svg" alt="" style="width: 18px;height: 18px;">
-                  </a>
-                </div>
-              </div>
-
 
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -136,6 +119,33 @@
                     </a>
                     <a href="" class="store ms-2">(0)</a>
                 </div>
+            </div>
+
+            <div class="d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+                <div class="d-flex justify-content-center align-items-center">
+                    <a class="btn-serch me-3" id="btnSearchNew" onclick="openSearchNew()">
+                        <img src="./assets/icons/icon-3.svg">
+                    </a>
+                    <div class="input-group d-none" id="inputSearchNew">
+                        <input style="z-index: 1;" type="text" id="inSearch" class="form-control position-relative"
+                            aria-label="Amount (to the nearest dollar)">
+                        <div style="z-index: 1;" class="position-absolute btn-search h-100 d-flex align-items-center">
+                            <box-icon name='search' size='sm'></box-icon>
+                        </div>
+                        <div style="z-index: 1;" class="position-absolute btn-x h-100 d-flex align-items-center"
+                            onclick="openSearchNew()">
+                            <box-icon name='x' size='sm'></box-icon>
+                        </div>
+                    </div>
+                    <a href="" class="ms-1 me-2 d-flex align-items-center">
+                        <img src="assets/icons/icon-4.svg" alt="" style="width: 18px;height: 18px;">
+                    </a>
+                    <a href="" class="d-flex ms-1 align-items-center">
+                        <img src="assets/icons/icon-5.svg" alt="" style="width: 18px;height: 18px;">
+                    </a>
+                    <a href="" class="store ms-2">(0)</a>
+                </div>
+                
             </div>
         </div>
     </nav>

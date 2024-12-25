@@ -21,6 +21,24 @@ var swiper = new Swiper(".mySwiper", {
     }
   }
 
+  let inputSearchNew = false;
+function openSearchNew() {
+  if (!inputSearchNew) {
+    document.getElementById('btnSearchNew').classList.add('d-none');
+    document.getElementById('inputSearchNew').classList.remove('d-none');
+    document.getElementById('boxx-shadow').innerHTML = '<div style="z-index:0" onclick="openSearchNew()" class="modal-backdrop fade show"></div>';
+    inputSearchNew = true;
+  } else {
+    document.getElementById('btnSearchNew').classList.remove('d-none');
+    document.getElementById('inputSearchNew').classList.add('d-none');
+    document.getElementById('boxx-shadow').innerHTML = '';
+    inputSearchNew = false;
+  }
+}
+
+
+
+
   function closeTopbar(){
     let element = document.getElementById('topbar');
   
