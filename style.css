@@ -61,17 +61,23 @@
 
 .swiper-slide {
   text-align: center;
-  font-size: 18px;
+  font-size: 5pxpx;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.swiper-button-next:after,
-.swiper-button-prev:after {
+.swiper-button-prev:after{
   font-size: 25px !important;
   color: black;
 }
+
+.swiper-button-next:after {
+  font-size: 25px !important;
+  color: rgb(0, 0, 0);
+}
+
+
 .fs-slider {
   font-size: 0.8rem;
 }
@@ -262,4 +268,9 @@ button#menuHamburger:hover .icon-bar-2 {
 
 .w-mx-150px {
   max-width: 150px;
+}
+
+
+.content-hom2{
+  padding: 2rem;
 }
