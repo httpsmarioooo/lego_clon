@@ -274,3 +274,16 @@ button#menuHamburger:hover .icon-bar-2 {
 .content-hom2{
   padding: 2rem;
 }
+
+.shop-banners{
+  text-decoration: none;
+}
+
+.border-none {
+  border: none !important;
+}
+
+.space-cards{
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}

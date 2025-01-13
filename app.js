@@ -6,6 +6,18 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 
+  var swiper = new Swiper("#swiper-2", {
+    freeMode: true,
+    spaceBetween: 30,
+    slidesPerView: 'auto',
+    scrollbar: {
+      el: ".swiper-scrollbar",
+      hide: false,
+      draggable: true,
+    },
+  });
+
+
   let inputSearch = false;
   function openSearch(){
     if(!inputSearch){
@@ -35,8 +47,6 @@ function openSearchNew() {
     inputSearchNew = false;
   }
 }
-
-
 
 
   function closeTopbar(){
