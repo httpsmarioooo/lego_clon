@@ -287,3 +287,32 @@ button#menuHamburger:hover .icon-bar-2 {
   padding-top: 4.5rem;
   padding-bottom: 4.5rem;
 }
+
+.heroe-gift{
+  background-color: #002626;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: rgb(48, 85, 181, 0.44) 0px 1px 4px 0px;
+}
+
+.heroe-button{
+ color: #ffffff;
+  padding: 5px 15px;
+  background-color: #002626;
+  border-radius: 20px;
+  border: 2px solid #d9f0ff;  /* Aquí estás estableciendo tamaño, estilo y color en una sola línea */
+}
+
+.content-card{
+padding: 1rem;
+color: #ffffff;
+}
+
+
+.card-body-gift {
+  padding: 1rem;
+  background-color: #2a4b57;
+  border-radius: 20px;
+
+}
+
