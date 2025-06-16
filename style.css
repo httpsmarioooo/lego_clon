@@ -325,3 +325,89 @@ color: #ffffff;
   padding-top: 5rem;
   text-align: end;
 }
+
+.stars{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.price-products{
+    display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+slider3 .swiper-wrapper .swiper-slide .card .card-body div{
+    display: flex !important;
+    justify-content: start !important;
+    flex-direction: column;
+    align-items: start;
+}
+
+.bg-navy{
+    background-color: #002636 !important;
+}
+
+.btn-4 {
+    border-radius: 2rem;
+    border: 2px solid white;
+    padding: 5px 20px;
+    background: transparent;
+    color: white;
+    font-weight: 900;
+}
+
+.btn-4:hover{
+    background-color: white !important;
+    color: #002636 !important;
+}
+
+button.btn-hearth {
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.border-bottom-none{
+    border-bottom: none !important;
+}
+
+.btn-5{
+    background-color: #e96f14;
+    border: 2px solid #e96f14;
+    color: #000;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 25px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-5:hover{
+    background-color: white;
+    border: 2px solid #e96f14;
+}
+
+.h-300px{
+    height: 230px !important;
+}
+
+.card-img:hover img{
+    transform: scale(1.1);
+}
+
+.card-img img{
+    transition: transform 600ms;
+}
+
+
+/* Espacio entre las swipper o las cards de los productos */
+.swiper-wrapper {
+  display: flex;
+  gap: 20px;
+}
