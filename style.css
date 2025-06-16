@@ -411,3 +411,21 @@ button.btn-hearth {
   display: flex;
   gap: 20px;
 }
+
+#slider4 {
+  width: 100%;
+  /* Asegura que el swiper ocupe todo el ancho disponible */
+  overflow: visible;
+}
+
+#slider4 .swiper-wrapper {
+  /* Permite el scroll horizontal */
+  flex-wrap: nowrap;
+}
+
+
+
+
+
+
+
